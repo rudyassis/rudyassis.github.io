@@ -9,8 +9,7 @@ html, body {
 }
 
 body {
-    background: rgb(54,77,204);
-    background: linear-gradient(176deg, rgba(54,77,204,1) 0%, rgba(19,35,124,1) 100%);
+    background: rgba(0, 0, 0, 0.459);
     color: white;
     font-family: 'Raleway', sans-serif;
 }
@@ -41,16 +40,20 @@ h2 {
 
 .social {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     list-style: none;
-    margin: 20px 0;
+    margin: 20px 10px;
+    border-radius: 50px;
+    border: 4px solid white;
+    box-shadow: 0 0 10px white;
 }
 
 .social img {
-    width: 33px;
+    width: 60px;
+    margin: 10px;
 }
 
-.links-list {
+/*.links-list {
     
     list-style: none;
     font-family: 'Oswald', sans-serif;
@@ -74,4 +77,5 @@ h2 {
     color: grey;
     display: block;
     margin-top: 5px;
-}
+}*/
+
